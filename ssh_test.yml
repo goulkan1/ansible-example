@@ -1,0 +1,7 @@
+---
+- name: Test SSH connectivity
+  hosts: webservers
+  tasks:
+  - name: Ping the server
+    ping:
+                        
